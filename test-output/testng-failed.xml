@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Login]" parallel="tests">
-  <test name="Home Page Test(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="eduarte.modulestestcase.home.HomePageTest">
+      <class name="imdb.moduletestcase.login.LoginPageTest_TestNG">
         <methods>
-          <include name="TC_04_logOut"/>
           <include name="LaunchBrowser"/>
-          <include name="tearBrowser"/>
-          <include name="TC_03_VerifyHomePage"/>
+          <include name="TC_03_createAccount"/>
         </methods>
-      </class> <!-- eduarte.modulestestcase.home.HomePageTest -->
+      </class> <!-- imdb.moduletestcase.login.LoginPageTest_TestNG -->
     </classes>
-  </test> <!-- Home Page Test(failed) -->
-  <test name="Deelnemer Page Test(failed)" parallel="tests">
-    <classes>
-      <class name="eduarte.modulestestcase.deelnemer.DeelnemerTest">
-        <methods>
-          <include name="tc_1_clickAndVerifyDeelnemer"/>
-          <include name="LaunchBrowser"/>
-          <include name="tc_2_addNewDeelnemer_withAllMandatoryFields"/>
-        </methods>
-      </class> <!-- eduarte.modulestestcase.deelnemer.DeelnemerTest -->
-    </classes>
-  </test> <!-- Deelnemer Page Test(failed) -->
-  <test name="Login Page Test(failed)" parallel="tests">
-    <classes>
-      <class name="eduarte.moduletestcase.login.LoginPageTest_TestNG">
-        <methods>
-          <include name="tearBrowser"/>
-          <include name="LaunchBrowser"/>
-          <include name="tc_02_successfulLogin"/>
-          <include name="tc_03_logOut"/>
-        </methods>
-      </class> <!-- eduarte.moduletestcase.login.LoginPageTest_TestNG -->
-    </classes>
-  </test> <!-- Login Page Test(failed) -->
-</suite> <!-- Failed suite [Login] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

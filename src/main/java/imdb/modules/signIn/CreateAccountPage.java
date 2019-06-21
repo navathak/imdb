@@ -1,4 +1,4 @@
-package imdb.modules.login;
+package imdb.modules.signIn;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -8,17 +8,17 @@ import imdb.common.util.DriverManager;
 import imdb.common.util.ReadConfig;
 import imdb.common.util.Utility;
 
-public class LoginPage {
+public class CreateAccountPage {
 
 	// Initializing the class objects and variables
 	//public static WebDriver webDriver = DriverManager.getDriver();;
-	private Logger logger = Logger.getLogger(LoginPage.class);
+	private Logger logger = Logger.getLogger(CreateAccountPage.class);
 	private ReadConfig readConfig;
 	// Properties prop;
 	private Utility util;
 	private String methodName;
 
-	public LoginPage() {
+	public CreateAccountPage() {
 		util = new Utility();
 		readConfig = new ReadConfig();
 		logger.info("Loading Login Page Locator property file");
@@ -35,15 +35,21 @@ public class LoginPage {
 	public void enterUserName() {
 		util.enterTextWithClear(readConfig.prop_Loc.getProperty("loginpage.txt.username"),readConfig.prop_TestData.getProperty("username"), "Successfully Entered USerNAme");
 	}
+	public void enteremail() {
+		util.enterTextWithClear(readConfig.prop_Loc.getProperty("loginpage.txt.email"),readConfig.prop_TestData.getProperty("email"), "Successfully Entered email");
+	}
 
 	public void enterPassword() {
 		util.enterTextWithClear(readConfig.prop_Loc.getProperty("loginpage.txt.password"),readConfig.prop_TestData.getProperty("password"), "Successfully Entered password");
 	}
-
-	public void clickOnLogin() {
-		util.click((readConfig.prop_Loc.getProperty("loginpage.btn.login")));
+	public void reenterPassword() {
+		util.enterTextWithClear(readConfig.prop_Loc.getProperty("loginpage.txt.reenterpassword"),readConfig.prop_TestData.getProperty("reenterpassword"), "Successfully reEntered password");
 	}
-	public void selectSchool_Nordwincollege() {
+
+	public void clickOnCreateAccount() {
+		util.click((readConfig.prop_Loc.getProperty("loginpage.btn.createaccount")));
+	}
+	/*public void selectSchool_Nordwincollege() {
 		util.click(readConfig.prop_Loc.getProperty("loginpage.link.sch_NordwinCollege"));
 	}
 	public String getActTitle() {
@@ -56,7 +62,7 @@ public class LoginPage {
 	}
 	public void clickOnLogout() {
 		util.click((readConfig.prop_Loc.getProperty("logout.btn.logoff")));
-	}
+	}*/
 
 	public Utility getUtil() {
 		return util;

@@ -8,9 +8,6 @@ import org.testng.annotations.Test;
 
 import imdb.common.util.DriverManager;
 import imdb.modules.home.HomePage;
-import imdb.modules.login.LogOut;
-import imdb.modules.login.LoginPage;
-import imdb.moduletestcase.login.LoginPageTest_TestNG;
 
 public class HomePageTest {
 
@@ -18,22 +15,22 @@ public class HomePageTest {
 	
 	//LoginPage loginPage = new LoginPage();
 	private HomePage homePage;
-	//public static DriverManager dm = DriverManager.getDriverManager();
+	public  DriverManager dm = DriverManager.getDriverManager();
 	
 	private String methodName;
 	//LogOut logout = new LogOut();
-	private LoginPage loginPage;
-	private DriverManager dm;
-	LoginPageTest_TestNG logintest;
+	
+	//private DriverManager dm;
+	
 	
 	public HomePageTest() {
 		super();
 		homePage = new HomePage();
-		loginPage = homePage.getLoginPage();
-		dm = loginPage.getUtil().getDm();
-		dm.launchUrl();
-		logintest = new LoginPageTest_TestNG(loginPage);
-		logintest.setLoginPage(loginPage);
+		//loginPage = homePage.getLoginPage();
+		//dm = loginPage.getUtil().getDm();
+		//dm.launchUrl();
+		//logintest = new LoginPageTest_TestNG(loginPage);
+		//logintest.setLoginPage(loginPage);
 	}
 	
 	
@@ -42,23 +39,31 @@ public class HomePageTest {
 	@BeforeClass
 	public void LaunchBrowser() throws InterruptedException {
 		
-		logintest.tc_02_successfulLogin();
+		dm.launchUrl();
 	}
 	
 	@Test()
-	public void TC_03_VerifyHomePage() {
+	public void TC_01_verifyHomePage() {
 		methodName = new Object() {}.getClass().getEnclosingMethod().getName();
 		logger.info("Executing Test Case::"+methodName);
 		String actTitle = homePage.actTitle();
 		String expTitle = homePage.expTitle();
 		Assert.assertEquals(actTitle, expTitle);
 	}
+	@Test()
+	public void TC_02_clickOnSignIn() {
+		methodName = new Object() {}.getClass().getEnclosingMethod().getName();
+		logger.info("Executing Test Case::"+methodName);
+		homePage.clickOnSignIn();
+		homePage.clickOnCreateAccount();
+	}
 	
-	@Test
+	
+	/*@Test
 	public void TC_04_logOut() {
 		//logger.info("Executing Test Case::"+ getClass().getEnclosingMethod().getName());
 		loginPage.clickOnLogout();
-	}
+	}*/
 
 	@AfterClass
 	public void tearBrowser() {

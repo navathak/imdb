@@ -1,20 +1,17 @@
 package imdb.modules.home;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
-import imdb.common.util.DriverManager;
 import imdb.common.util.ReadConfig;
 import imdb.common.util.Utility;
-import imdb.modules.login.LoginPage;
+import imdb.modules.signIn.CreateAccountPage;
 
 public class HomePage {
 	
 	//public static WebDriver webDriver= DriverManager.getDriver();;
-	private Logger logger=Logger.getLogger(LoginPage.class);
+	private Logger logger=Logger.getLogger(CreateAccountPage.class);
 	//public Utility util= new Utility();
-	private LoginPage loginPage;
+	//private LoginPage loginPage;
 	private Utility util;
 	private String methodName;
 	private ReadConfig readConfig;
@@ -22,8 +19,8 @@ public class HomePage {
 	public HomePage() {
 		logger.info("Loading HomePage Locator property file" );
 		readConfig = new ReadConfig();
-		loginPage = new LoginPage();
-		util = loginPage.getUtil();
+	//	loginPage = new LoginPage();
+		util = new Utility();
 		readConfig.readFromProp_Locators("homePageRepo");
 		logger.info("Loading HomePage Test Data property file" );
 		readConfig.readFromProp_TestData("homePageTestData");
@@ -37,17 +34,20 @@ public class HomePage {
 		String expHPtitle=  readConfig.prop_TestData.getProperty("homePage.homePageTitle");
 		return expHPtitle;
 	}
-	public void clickOnHomePage() {
-		util.click(readConfig.prop_Loc.getProperty("homepage.link.hometab"));
+	public void clickOnSignIn() {
+		util.click(readConfig.prop_Loc.getProperty("homepage.link.signIn"));
+	}
+	public void clickOnCreateAccount() {
+		util.click(readConfig.prop_Loc.getProperty("homepage.link.CreateAccount"));
 	}
 
 	public Utility getUtil() {
 		return util;
 	}
-
+/*
 	public LoginPage getLoginPage() {
 		return loginPage;
-	}
+	}*/
 	
 	
 

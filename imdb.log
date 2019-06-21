@@ -1,0 +1,311 @@
+2019-06-21 17:25:18,446 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:25:18,451 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:25:21,663 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:25:21,665 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (82d6223b4b58dee5fbaaea67fa38f2fc)
+2019-06-21 17:25:22,849 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:25:22,861 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:25:22,861 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:25:25,186 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:25:25,188 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (509292a6de9d4ed94b17884ca371a234)
+2019-06-21 17:25:26,323 [main] INFO  imdb.modules.login.LoginPage - Loading Login Page Locator property file
+2019-06-21 17:25:26,324 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:25:26,325 [main] INFO  imdb.modules.login.LoginPage - Loading LoginPage Test Data property file
+2019-06-21 17:25:26,326 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:25:26,326 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:25:26,327 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:25:26,328 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:25:26,330 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:25:26,330 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:25:38,126 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:25:38,127 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:25:41,636 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:26:45,850 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:26:45,853 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:26:49,134 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:26:49,135 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (63923b3fcfa2f06568dd879b8fa58b61)
+2019-06-21 17:26:50,293 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:26:50,297 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:26:50,297 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:26:52,703 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:26:52,704 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (308b05b6fdd5b2bb5296a5139af45e82)
+2019-06-21 17:26:53,882 [main] INFO  imdb.modules.login.LoginPage - Loading Login Page Locator property file
+2019-06-21 17:26:53,887 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:26:53,888 [main] INFO  imdb.modules.login.LoginPage - Loading LoginPage Test Data property file
+2019-06-21 17:26:53,892 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:26:53,893 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:26:53,893 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:26:53,894 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:26:53,968 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:26:53,969 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:27:06,139 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:29:03,490 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:29:03,492 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:29:06,787 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:29:06,788 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (b217cf2f4529c1bb0373eb63d44153a0)
+2019-06-21 17:29:07,941 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:29:07,943 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:29:07,943 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:29:07,945 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:29:07,997 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:29:07,998 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:29:20,052 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:29:41,593 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:29:41,595 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:29:44,821 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:29:44,822 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (aff7193cc41ebf6ce185267b6ffa8e9e)
+2019-06-21 17:29:45,959 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:29:45,961 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:29:45,961 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:29:45,962 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:29:46,013 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:29:46,013 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:29:57,325 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:33:00,781 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:33:00,784 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:33:04,192 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:33:04,192 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (d4130399a24ff98f13a9c6d90e791841)
+2019-06-21 17:33:05,400 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:33:05,402 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:33:05,403 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:33:05,403 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:33:05,492 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:33:05,492 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:33:19,454 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:34:58,340 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:34:58,344 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:35:01,743 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:35:01,743 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (82c21db562c771357fc59813b82b03b5)
+2019-06-21 17:35:02,926 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:35:02,933 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:35:02,935 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:35:05,518 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:35:05,519 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (eed408f87f9f69cd41f3a446120db7c5)
+2019-06-21 17:35:06,659 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:35:06,662 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:35:06,663 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:35:06,720 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:35:06,721 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:35:15,858 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:36:56,464 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:36:56,468 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:36:59,754 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:36:59,754 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (bcae9a5217d8c99a310e1192ae4c0293)
+2019-06-21 17:37:00,907 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:37:00,909 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:37:00,910 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:37:03,293 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:37:03,295 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (1f26d8288e1f6f35b8343e036486c025)
+2019-06-21 17:37:04,454 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:37:04,455 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:37:04,458 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:37:04,568 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:37:04,568 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:37:16,127 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_03_VerifyHomePage
+2019-06-21 17:37:16,132 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:37:16,135 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@7d322cad
+2019-06-21 17:37:16,135 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 17:37:16,137 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:37:17,141 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 17:37:18,504 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 17:39:12,900 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:39:12,904 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:39:16,148 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:39:16,148 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (c8e4d6f6103ee058fb4e08ad0fe3d6a3)
+2019-06-21 17:39:17,337 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:39:17,346 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:39:17,347 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:39:19,821 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:39:19,822 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (2837adc6b992232a3602fa7c3cd1ae2b)
+2019-06-21 17:39:21,015 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:39:21,017 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:39:21,018 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:39:21,099 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:39:21,099 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:39:31,057 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 17:39:31,101 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 17:39:31,105 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:39:31,105 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@15d49048
+2019-06-21 17:39:31,105 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 17:39:31,106 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:39:32,114 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 17:39:33,457 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 17:39:33,460 [main] INFO  imdb.common.util.DriverManager - Executing Method::closeBrowser
+2019-06-21 17:42:53,294 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:42:53,298 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:42:56,814 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:42:56,815 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (2761f397ef882b55cd495dde9e919121)
+2019-06-21 17:42:57,951 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Locator property file
+2019-06-21 17:42:57,956 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:42:57,956 [main] INFO  imdb.modules.login.LoginPage - Loading HomePage Test Data property file
+2019-06-21 17:42:57,957 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:42:58,010 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:42:58,010 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:43:12,897 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 17:43:12,939 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 17:43:12,952 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:43:12,952 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@21be3395
+2019-06-21 17:43:12,952 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 17:43:12,957 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:43:13,974 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 17:43:15,426 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 17:43:15,430 [main] INFO  imdb.common.util.DriverManager - Executing Method::closeBrowser
+2019-06-21 17:50:32,806 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:50:32,810 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:50:36,007 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:50:36,008 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (4a073d76cb1c0bcf4f064dbee7021e7f)
+2019-06-21 17:50:37,196 [main] INFO  imdb.modules.signIn.SigninPage - Loading HomePage Locator property file
+2019-06-21 17:50:37,199 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:50:37,199 [main] INFO  imdb.modules.signIn.SigninPage - Loading HomePage Test Data property file
+2019-06-21 17:50:37,200 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:50:37,274 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:50:37,274 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:50:47,224 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 17:50:47,258 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 17:50:47,266 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:50:47,267 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@21be3395
+2019-06-21 17:50:47,267 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 17:50:47,269 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:50:48,281 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 17:50:49,728 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 17:50:49,729 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:50:49,729 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@50029372
+2019-06-21 17:50:49,730 [main] INFO  imdb.common.util.Utility - Object Identifier name	 Object Identifier Value Create a New Account
+2019-06-21 17:50:49,730 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:50:50,732 [main] INFO  imdb.common.util.Utility - Found Element @By.name: Create a New Account
+2019-06-21 17:50:50,865 [main] INFO  imdb.common.util.DriverManager - Executing Method::closeBrowser
+2019-06-21 17:53:11,594 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 17:53:11,597 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 17:53:14,805 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 17:53:14,806 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (39f7ddd4a35a105267da45939a04bf0e)
+2019-06-21 17:53:15,939 [main] INFO  imdb.modules.signIn.SigninPage - Loading HomePage Locator property file
+2019-06-21 17:53:15,942 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 17:53:15,942 [main] INFO  imdb.modules.signIn.SigninPage - Loading HomePage Test Data property file
+2019-06-21 17:53:15,943 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 17:53:16,009 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 17:53:16,009 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 17:53:27,873 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 17:53:27,900 [main] INFO  imdb.modulestestcase.home.HomePageTest - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 17:53:27,905 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:53:27,906 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@21be3395
+2019-06-21 17:53:27,906 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 17:53:27,909 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:53:28,918 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 17:53:30,261 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 17:53:30,262 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 17:53:30,262 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@50029372
+2019-06-21 17:53:30,263 [main] INFO  imdb.common.util.Utility - Object Identifier linktext	 Object Identifier Value Create a New Account
+2019-06-21 17:53:30,263 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 17:53:31,265 [main] INFO  imdb.common.util.Utility - Found Element @By.linkText: Create a New Account
+2019-06-21 17:53:32,934 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 17:53:32,938 [main] INFO  imdb.common.util.DriverManager - Executing Method::closeBrowser
+2019-06-21 18:15:56,017 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading HomePage Locator property file
+2019-06-21 18:15:56,029 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 18:15:56,029 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 18:15:59,415 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 18:15:59,416 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (538323400dfaf565e49294b9edc72e98)
+2019-06-21 18:16:00,564 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 18:16:00,565 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading HomePage Test Data property file
+2019-06-21 18:16:00,566 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 18:16:00,567 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading Login Page Locator property file
+2019-06-21 18:16:00,567 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 18:16:00,568 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading LoginPage Test Data property file
+2019-06-21 18:16:00,568 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 18:16:00,653 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - LoginPageTest
+2019-06-21 18:16:00,654 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 18:16:00,654 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 18:16:12,207 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 18:16:12,243 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 18:16:12,246 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 18:16:12,247 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@147e2ae7
+2019-06-21 18:16:12,248 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 18:16:12,249 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:16:13,259 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 18:16:14,648 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 18:16:14,649 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 18:16:14,649 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@3e2055d6
+2019-06-21 18:16:14,649 [main] INFO  imdb.common.util.Utility - Object Identifier linktext	 Object Identifier Value Create a New Account
+2019-06-21 18:16:14,650 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:16:15,651 [main] INFO  imdb.common.util.Utility - Found Element @By.linkText: Create a New Account
+2019-06-21 18:16:17,389 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 18:16:17,405 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_03_createAccount
+2019-06-21 18:16:17,406 [main] INFO  imdb.common.util.Utility - Executing Test Step::enterTextWithClear
+2019-06-21 18:16:17,406 [main] INFO  imdb.common.util.Utility - WebDriver value in enter method:::ChromeDriver: chrome on XP (538323400dfaf565e49294b9edc72e98)
+2019-06-21 18:16:17,407 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value ap_customer_name
+2019-06-21 18:16:17,407 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:16:18,408 [main] INFO  imdb.common.util.Utility - Found Element @By.id: ap_customer_name
+2019-06-21 18:16:18,438 [main] INFO  imdb.common.util.Utility - The data to be filled in the Textbox isnull
+2019-06-21 18:16:18,439 [main] INFO  imdb.common.util.Utility - Element::: [[ChromeDriver: chrome on XP (538323400dfaf565e49294b9edc72e98)] -> id: ap_customer_name]
+2019-06-21 18:17:15,072 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading HomePage Locator property file
+2019-06-21 18:17:15,086 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 18:17:15,086 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 18:17:18,306 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 18:17:18,306 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (fb2f82aaada6b7c0fa29a2f9980b1133)
+2019-06-21 18:17:19,440 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 18:17:19,441 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading HomePage Test Data property file
+2019-06-21 18:17:19,442 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 18:17:19,443 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading Login Page Locator property file
+2019-06-21 18:17:19,444 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 18:17:19,445 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading LoginPage Test Data property file
+2019-06-21 18:17:19,445 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 18:17:19,503 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - LoginPageTest
+2019-06-21 18:17:19,503 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 18:17:19,504 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 18:17:29,697 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 18:17:29,723 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 18:17:29,725 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 18:17:29,725 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@147e2ae7
+2019-06-21 18:17:29,725 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 18:17:29,726 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:17:30,732 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 18:17:32,114 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 18:17:32,115 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 18:17:32,115 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@3e2055d6
+2019-06-21 18:17:32,115 [main] INFO  imdb.common.util.Utility - Object Identifier linktext	 Object Identifier Value Create a New Account
+2019-06-21 18:17:32,115 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:17:33,115 [main] INFO  imdb.common.util.Utility - Found Element @By.linkText: Create a New Account
+2019-06-21 18:17:34,891 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 18:17:34,900 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_03_createAccount
+2019-06-21 18:17:34,914 [main] INFO  imdb.common.util.Utility - Executing Test Step::enterTextWithClear
+2019-06-21 18:17:34,914 [main] INFO  imdb.common.util.Utility - WebDriver value in enter method:::ChromeDriver: chrome on XP (fb2f82aaada6b7c0fa29a2f9980b1133)
+2019-06-21 18:17:34,915 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value ap_customer_name
+2019-06-21 18:17:34,916 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:17:35,916 [main] INFO  imdb.common.util.Utility - Found Element @By.id: ap_customer_name
+2019-06-21 18:17:36,000 [main] INFO  imdb.common.util.Utility - The data to be filled in the Textbox isnull
+2019-06-21 18:17:36,001 [main] INFO  imdb.common.util.Utility - Element::: [[ChromeDriver: chrome on XP (fb2f82aaada6b7c0fa29a2f9980b1133)] -> id: ap_customer_name]
+2019-06-21 18:22:31,633 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading HomePage Locator property file
+2019-06-21 18:22:31,647 [main] INFO  imdb.common.util.DriverManager - The type of the browser passed is ::chrome
+2019-06-21 18:22:31,648 [main] INFO  imdb.common.util.DriverManager - C:/Users/navathak/git/imdb21062019
+2019-06-21 18:22:34,991 [main] INFO  imdb.common.util.DriverManager - Initializing chrome webDriver
+2019-06-21 18:22:34,992 [main] INFO  imdb.common.util.DriverManager - Web Driver initializer:: ChromeDriver: chrome on XP (07f0f7a7098f515f22a0151f159179f7)
+2019-06-21 18:22:36,206 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 18:22:36,207 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading HomePage Test Data property file
+2019-06-21 18:22:36,207 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 18:22:36,213 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading Login Page Locator property file
+2019-06-21 18:22:36,213 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_Locators
+2019-06-21 18:22:36,213 [main] INFO  imdb.modules.signIn.CreateAccountPage - Loading LoginPage Test Data property file
+2019-06-21 18:22:36,214 [main] INFO  imdb.common.util.ReadConfig - Executing the Method:::readFromProp_TestData
+2019-06-21 18:22:36,264 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - LoginPageTest
+2019-06-21 18:22:36,265 [main] INFO  imdb.common.util.DriverManager - Executing Method::launchUrl
+2019-06-21 18:22:36,265 [main] INFO  imdb.common.util.DriverManager - Launching the URL ::::https://www.imdb.com/
+2019-06-21 18:22:46,540 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_01_verifyHomePage
+2019-06-21 18:22:46,556 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_02_clickOnSignIn
+2019-06-21 18:22:46,558 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 18:22:46,558 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@13526e59
+2019-06-21 18:22:46,559 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value imdb-signin-link
+2019-06-21 18:22:46,560 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:22:47,565 [main] INFO  imdb.common.util.Utility - Found Element @By.id: imdb-signin-link
+2019-06-21 18:22:48,896 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 18:22:48,896 [main] INFO  imdb.common.util.Utility - Executing Test Step::click
+2019-06-21 18:22:48,897 [main] INFO  imdb.common.util.Utility - Xpath for the Element is[Ljava.lang.String;@7f2cfe3f
+2019-06-21 18:22:48,897 [main] INFO  imdb.common.util.Utility - Object Identifier linktext	 Object Identifier Value Create a New Account
+2019-06-21 18:22:48,897 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:22:49,898 [main] INFO  imdb.common.util.Utility - Found Element @By.linkText: Create a New Account
+2019-06-21 18:22:51,612 [main] INFO  imdb.common.util.Utility - The Given Element is clicked
+2019-06-21 18:22:51,618 [main] INFO  imdb.moduletestcase.login.LoginPageTest_TestNG - Executing Test Case::TC_03_createAccount
+2019-06-21 18:22:51,632 [main] INFO  imdb.common.util.Utility - Executing Test Step::enterTextWithClear
+2019-06-21 18:22:51,633 [main] INFO  imdb.common.util.Utility - WebDriver value in enter method:::ChromeDriver: chrome on XP (07f0f7a7098f515f22a0151f159179f7)
+2019-06-21 18:22:51,633 [main] INFO  imdb.common.util.Utility - Object Identifier id	 Object Identifier Value ap_customer_name
+2019-06-21 18:22:51,633 [main] INFO  imdb.common.util.Utility - Executing Test Step::getElement
+2019-06-21 18:22:52,634 [main] INFO  imdb.common.util.Utility - Found Element @By.id: ap_customer_name
+2019-06-21 18:22:52,656 [main] INFO  imdb.common.util.Utility - The data to be filled in the Textbox isnull
+2019-06-21 18:22:52,656 [main] INFO  imdb.common.util.Utility - Element::: [[ChromeDriver: chrome on XP (07f0f7a7098f515f22a0151f159179f7)] -> id: ap_customer_name]

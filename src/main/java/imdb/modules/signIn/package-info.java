@@ -5,4 +5,4 @@
  * @author Navathak
  *
  */
-package imdb.modules.login;
+package imdb.modules.signIn;

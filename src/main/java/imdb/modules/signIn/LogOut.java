@@ -1,4 +1,4 @@
-package imdb.modules.login;
+package imdb.modules.signIn;
 
 import org.apache.log4j.Logger;
 

@@ -1,43 +1,41 @@
-package imdb.moduletestcase.login;
+package imdb.modulestestcase.home;
+
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import imdb.common.util.DriverManager;
-import imdb.modules.signIn.LogOut;
-import imdb.modules.home.HomePage;
 import imdb.modules.signIn.CreateAccountPage;
 
-public class LoginPageTest_TestNG {
+public class CreateAccountPageTest {
 
-	private static Logger logger=Logger.getLogger(LoginPageTest_TestNG.class);
+	private static Logger logger=Logger.getLogger(CreateAccountPageTest.class);
 	
-	private CreateAccountPage createAccountPage;
+	private CreateAccountPage loginPage;
 	//public static DriverManager dm = DriverManager.getDriverManager();
 	private DriverManager dm;
 	private String methodName;
-	HomePage homePage = new HomePage();
+	//LogOut logout = new LogOut();
+	private HomePageTest homePageTest = new HomePageTest();
 	
 	/**
 	 * No arg constructor
 	 */
-	public LoginPageTest_TestNG() {
-		createAccountPage  = new CreateAccountPage();
-		dm = createAccountPage.getUtil().getDm();
+	public CreateAccountPageTest() {
+		loginPage  = new CreateAccountPage();
+		dm = loginPage.getUtil().getDm();
 	}
 	
 	/**
 	 * Constructor with LoginPage to work with other test cases
 	 * @param loginPage
 	 */
-	/*public LoginPageTest_TestNG(CreateAccountPage newLoginPage) {
-		createAccountPage = newLoginPage;
-		dm = createAccountPage.getUtil().getDm();
+	/*public CreateAccountPageTest(CreateAccountPage newLoginPage) {
+		loginPage = newLoginPage;
+		dm = loginPage.getUtil().getDm();
 	}*/
 
 	//TestNG Tests
@@ -47,47 +45,44 @@ public class LoginPageTest_TestNG {
 		logger.info("LoginPageTest");
 		dm.launchUrl();
 	}
-	@Test()
-	public void TC_01_verifyHomePage() {
+	/*@Test(priority=1)
+	public void tc_01_VerifyLoginPage() throws InterruptedException {
 		methodName = new Object() {}.getClass().getEnclosingMethod().getName();
 		logger.info("Executing Test Case::"+methodName);
-		String actTitle = homePage.actTitle();
-		String expTitle = homePage.expTitle();
+		String actTitle=loginPage.getActTitle();
+		String expTitle=loginPage.getExpTitle();
 		Assert.assertEquals(actTitle, expTitle);
 	}
-	@Test()
-	public void TC_02_clickOnSignIn() {
+	@Test(priority=2)
+	public void tc_02_successfulLogin() throws InterruptedException {
 		methodName = new Object() {}.getClass().getEnclosingMethod().getName();
 		logger.info("Executing Test Case::"+methodName);
-		homePage.clickOnSignIn();
-		homePage.clickOnCreateAccount();
+		loginPage.selectSchool_Nordwincollege();
+		loginPage.enterUserName();
+		loginPage.enterPassword();
+		loginPage.clickOnLogin();
 	}
-	@Test()
-	public void TC_03_createAccount() {
+	@Test(priority=3)
+	public void tc_03_logOut() {
 		methodName = new Object() {}.getClass().getEnclosingMethod().getName();
 		logger.info("Executing Test Case::"+methodName);
-		createAccountPage.enterUserName();
-		createAccountPage.enteremail();
-		createAccountPage.enterPassword();
-		createAccountPage.reenterPassword();
-		createAccountPage.clickOnCreateAccount();
-	}
-	
+		loginPage.clickOnLogout();
+	}*/
 
-	/*@AfterClass
+	@AfterClass
 	public void tearBrowser() {
 		methodName = new Object() {
 		}.getClass().getEnclosingMethod().getName();
 		logger.info("Executing Test Case::" + methodName);
 		dm.closeBrowser();
-	}*/
+	}
 	
-	/*public CreateAccountPage getLoginPage() {
-		return createAccountPage;
+	public CreateAccountPage getLoginPage() {
+		return loginPage;
 	}
 	public void setLoginPage(CreateAccountPage loginPage) {
-		this.createAccountPage = loginPage;
-	}*/
+		this.loginPage = loginPage;
+	}
 	
 	
 }

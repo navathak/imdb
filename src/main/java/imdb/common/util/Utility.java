@@ -37,8 +37,9 @@ public class Utility {
 	
 	
 	public Utility() {
-		dm = new DriverManager();
+		dm = DriverManager.getDriverManager();
 		webDriver = dm.getWebDriver();
+		webDriver.switchTo().parentFrame();
 	}
 
 	/* Method Name: enterTextWithClear 
@@ -56,7 +57,8 @@ public class Utility {
 		WebElement element = getElement(str[0],str[1]);
 		logger.info("The data to be filled in the Textbox is" + objectData);
 		logger.info("Element::: " +element);
-		element.clear();
+		//element.clear();
+		
 		element.sendKeys(objectData);
 		logger.info("The data is entered in the Text Field");
 	}
@@ -95,6 +97,12 @@ public class Utility {
 					logger.info("Found Element @"+byValue);
 					ele=webDriver.findElement(byValue);
 					break;
+		case "LINKTEXT":
+			
+			byValue = By.linkText(locatorName);
+			logger.info("Found Element @"+byValue);
+			ele=webDriver.findElement(byValue);
+			break;
 		}
 		waitForElementVisibility(byValue);
 		//try { Thread.sleep(5000); } catch(Exception e1){}

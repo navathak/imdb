@@ -18,7 +18,7 @@ public class DriverManager {
 	//Initializing classes and declaration of Variables
 	private static Logger logger = Logger.getLogger(DriverManager.class);
 	//private static long WAIT = 60;
-	private WebDriver webDriver;
+	private static WebDriver webDriver;
 	protected WebDriverWait webDriverWait;
 	protected CustomReport customReport;
 	
@@ -28,7 +28,7 @@ public class DriverManager {
 	private String readfile;
 	private static String methodName;
 	
-	//private static DriverManager driverManager = new DriverManager();
+	private static DriverManager driverManager = new DriverManager();
 	
 	public  DriverManager()  {
 		//Loading the Environment.properties file
@@ -102,17 +102,17 @@ public class DriverManager {
 		this.webDriver = webDriver;
 	}
 	
-	/*public static WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		methodName = new Object() {}.getClass().getEnclosingMethod().getName();
 		logger.info("Executing Method::"+methodName);
 		logger.info("Driver::::" + webDriver);
 		return webDriver;
 		
-	}*/
+	}
 	
-	/*public static DriverManager getDriverManager() {
+	public static DriverManager getDriverManager() {
 		return driverManager;
 	}
-	 */
+	 
 
 }
