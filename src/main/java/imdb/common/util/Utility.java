@@ -3,6 +3,7 @@ package imdb.common.util;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -12,6 +13,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -27,7 +29,6 @@ public class Utility {
 	protected JavascriptExecutor jse;
 	WebElement element;
 	WebDriverWait driverWait;
-	//public static WebDriver webDriver= DriverManager.getDriver();
 	private DriverManager dm;
 	private WebDriver webDriver;
 	WebElement ele;
@@ -39,7 +40,7 @@ public class Utility {
 	public Utility() {
 		dm = DriverManager.getDriverManager();
 		webDriver = dm.getWebDriver();
-		webDriver.switchTo().parentFrame();
+		
 	}
 
 	/* Method Name: enterTextWithClear 
@@ -105,22 +106,13 @@ public class Utility {
 			break;
 		}
 		waitForElementVisibility(byValue);
-		//try { Thread.sleep(5000); } catch(Exception e1){}
+		
 		return ele;
 		
 	}	
 	
 	
-	public void click(String objectLocator, String message)  {
-		String[] str = objectLocator.split(":");
-		String objectIdentifier = str[0];
-		String identifierValue = str[1];
-		logger.info("The object Identifier is" + str[0]);
-		logger.info("The object Identifier value is" + str[1]);
-		WebElement element = getElement(objectIdentifier, identifierValue);
-		element.click();
-		logger.info(element+"Element is clicked successfully");
-	}
+	
 	
 	public void click(String locator) {
 		
@@ -143,6 +135,12 @@ public class Utility {
 		
 	}
 	
+	
+	
+	
+	
+	
+	
 	public String getText(String objectLocator)
 	{		
 		String[] str = objectLocator.split(":");
@@ -156,25 +154,7 @@ public class Utility {
 		return getText;
 	}
 
-	public void clickOnSearchBTN(String locator) {
-		
-		String methodName = new Object() {}.getClass().getEnclosingMethod().getName();
-		logger.info("Executing Test Step::"+methodName);
-		
-		String[] str = locator.split(":");
-		logger.info("Xpath for the Element is" + str);
-		
-		logger.info("Object Identifier " + str[0]+"\t Object Identifier Value "+str[1]);
-		//customReport.reporter("Clicking on ", ""+str[1]);
-		
-		WebElement element = getElement(str[0], str[1]);
-		element.click();
-		waitForPageToLoad(1000);
-		//customReport.reporter("Clicked on ", ""+str[1]);
-		logger.info("The Given Element is clicked");
-		
-		
-	}
+	
 
 	public static String getScreenhot(WebDriver webDriver, String screenshotName) throws Exception {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -205,27 +185,44 @@ public class Utility {
 		logger.info("The Given Element is selected");
 	}
 	
-	public String getUniqueName(String appendName) {
-		Date currentDate = new Date();
-		long time = currentDate.getTime();
-		String uniqName=appendName + "-" + time;
-		logger.info("Unique Name Generated is ::" +uniqName);
-		return uniqName;
+public void mouseHover(String locator,String valueToMouseHover) {
 		
+		String methodName = new Object() {}.getClass().getEnclosingMethod().getName();
+		logger.info("Executing Test Step::"+methodName);
+		
+		String[] str = locator.split(":");
+			
+		logger.info("Object Identifier " + str[0]+"\t Object Identifier Value "+str[1]);
+				
+		WebElement element = getElement(str[0], str[1]);
+		Actions action = new Actions(webDriver);
+		 
+        action.moveToElement(element).perform();
+        waitForPageToLoad(10000);
+		String[] str1 = valueToMouseHover.split(":");
+			
+		logger.info("Object Identifier " + str1[0]+"\t Object Identifier Value "+str1[1]);
+		//customReport.reporter("Clicking on ", ""+str[1]);
+		
+		WebElement subElement = getElement(str[0], str[1]);
+		logger.info("Sub Element::::" +subElement);
+		
+ 
+		waitForPageToLoad(10000);
+        action.moveToElement(subElement);
+        waitForPageToLoad(10000);
+        action.click();
+ 
+        action.perform();
+		waitForPageToLoad(10000);
+		logger.info("The Given Element is selected");
 	}
 	
-	/*public String getUniqueName(String appendName) {
-		DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
-		System.out.println(dateFormat);
-		Calendar cal = Calendar.getInstance();
-		String uniqName=appendName +dateFormat.format(cal);
-		logger.info("Unique Name Generated is ::" +uniqName);
-		return uniqName;
-		
-	}*/
-
-
-
+	
+	
+	
+	
+	
 
 
 
@@ -289,35 +286,6 @@ public class Utility {
 	    }
 	  }
 	
-	public boolean waitForTextPresent(WebElement webElement,String text)
-	{
-		boolean flag = false;
-		int poolFlag=4;
-		int i = 1;
-		try {
-			while (flag == false && i <= poolFlag) {
-				logger.info("Inside While Loop"+i);
-				logger.info("The value is--"+driverWait.until(
-						ExpectedConditions.textToBePresentInElement(webElement, text)));
-				if (driverWait.until(
-						ExpectedConditions.textToBePresentInElement(webElement, text)))
-				{
-					flag = true;
-					break;
-				}
-				else
-				{	
-				i+=1;
-			}
-			}
-		}
-		catch (Exception e) {
-			// TODO: handle exception
-			logger.info("In the Catch Block");
-			//customReport.reporter("The Element is not found after 120 Seconds also","");
-		}
-		return flag;	
-	}
 	
 		public boolean waitForElementVisibility(By locator)
 		{

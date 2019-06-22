@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 import imdb.common.util.ReadConfig;
 import imdb.common.util.Utility;
-import imdb.modules.signIn.CreateAccountPage;
+import imdb.modules.createaccountsignIn.CreateAccountPage;
 
 public class HomePage {
 	
@@ -40,6 +40,10 @@ public class HomePage {
 	public void clickOnCreateAccount() {
 		util.click(readConfig.prop_Loc.getProperty("homepage.link.CreateAccount"));
 	}
+	public void SignIn() {
+		util.click(readConfig.prop_Loc.getProperty("homepage.link.CreateAccount"));
+	}
+	
 
 	public Utility getUtil() {
 		return util;

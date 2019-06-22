@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login]">
+  <test name=" Page Test(failed)">
     <classes>
-      <class name="imdb.moduletestcase.login.LoginPageTest_TestNG">
+      <class name="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations">
         <methods>
+          <include name="TC_01_verifyHomePage"/>
+          <include name="TC_06_signInWithExistingUser"/>
+          <include name="TC_03_verifyWithMisMatchPassword"/>
+          <include name="TC_04_VerifyExistingEmailAccount"/>
           <include name="LaunchBrowser"/>
-          <include name="TC_03_createAccount"/>
+          <include name="TC_02_clickOnSignInWithOutEnteringanyValues"/>
+          <include name="TC_05_VerifyInvalidEmail"/>
+          <include name="tearBrowser"/>
         </methods>
-      </class> <!-- imdb.moduletestcase.login.LoginPageTest_TestNG -->
+      </class> <!-- imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!--  Page Test(failed) -->
+</suite> <!-- Failed suite [Login] -->

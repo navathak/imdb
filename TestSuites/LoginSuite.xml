@@ -2,16 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Login" >	
 	
-	<test name="Login Page Test" >
+	<test name=" Page Test" >
 		<classes>
-			 <class name="imdb.moduletestcase.login.LoginPageTest_TestNG"/>
+			
+			 <class name="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations"/>
 		</classes>
 	</test>
-	<test name="Home Page Test" >
-		<classes>
-			<class name="imdb.modulestestcase.home.HomePageTest.java"/>
-		</classes>
-	
-	
 	
 </suite>
