@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Login">
-              <span class="suite-name border-passed">Login</span>
+              <span class="suite-name border-failed">Login</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Login">
-                    <span>C:\Users\navathak\git\imdb21062019\TestSuites\LoginSuite.xml</span>
+                    <span>C:\Users\navathak\git\imdb21062019\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">9 methods, 4 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods failed suite-Login"> (hide)</a> <!-- hide-methods failed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods failed suite-Login"> (show)</a> <!-- show-methods failed suite-Login -->
+                    </span>
+                    <div class="method-list-content failed suite-Login">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_05_VerifyExistingEmailAccount">TC_05_VerifyExistingEmailAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_06_createAccountSuccessfully">TC_06_createAccountSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_07_signInWithExistingUser">TC_07_signInWithExistingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_08_verifyAccount">TC_08_verifyAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,32 +131,27 @@
                     <div class="method-list-content passed suite-Login">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations" hash-for-method="TC_01_verifyHomePage">TC_01_verifyHomePage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_01_verifyHomePage">TC_01_verifyHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations" hash-for-method="TC_02_clickOnSignInWithOutEnteringanyValues">TC_02_clickOnSignInWithOutEnteringanyValues</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_02_clickOnSignInWithOutEnteringanyValues">TC_02_clickOnSignInWithOutEnteringanyValues</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations" hash-for-method="TC_03_verifyWithMisMatchPassword">TC_03_verifyWithMisMatchPassword</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_03_verifyWithMisMatchPassword">TC_03_verifyWithMisMatchPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations" hash-for-method="TC_04_VerifyExistingEmailAccount">TC_04_VerifyExistingEmailAccount</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_04_VerifyInvalidEmail">TC_04_VerifyInvalidEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations" hash-for-method="TC_05_VerifyInvalidEmail">TC_05_VerifyInvalidEmail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations" hash-for-method="TC_06_signInWithExistingUser">TC_06_signInWithExistingUser</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Login" title="imdb.moduletestcase.createaccountsignin.IMDBTestScripts" hash-for-method="TC_09_signOut">TC_09_signOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Login -->
@@ -142,10 +166,141 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Login" class="panel Login">
+          <div class="suite-Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">imdb.moduletestcase.createaccountsignin.IMDBTestScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_VerifyExistingEmailAccount">
+                  </a> <!-- TC_05_VerifyExistingEmailAccount -->
+                  <span class="method-name">TC_05_VerifyExistingEmailAccount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[@class=&apos;a-alert-heading&apos;]&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;INHYLNAVATHAK&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\navathak\AppData\Local\Temp\scoped_dir8292_14496}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d5e8610a9235c3ae1945cdc027ada03
+*** Element info: {Using=xpath, value=//h4[@class=&apos;a-alert-heading&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at imdb.common.util.Utility.getElement(Utility.java:94)
+	at imdb.common.util.Utility.getText(Utility.java:153)
+	at imdb.modules.createIMDBAccount.CreateAccountPage.getActualErrorforEmptyValues(CreateAccountPage.java:135)
+	at imdb.moduletestcase.createaccountsignin.IMDBTestScripts.TC_05_VerifyExistingEmailAccount(IMDBTestScripts.java:137)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_createAccountSuccessfully">
+                  </a> <!-- TC_06_createAccountSuccessfully -->
+                  <span class="method-name">TC_06_createAccountSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;imdb-signin-link&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;INHYLNAVATHAK&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\navathak\AppData\Local\Temp\scoped_dir8292_14496}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d5e8610a9235c3ae1945cdc027ada03
+*** Element info: {Using=id, value=imdb-signin-link}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at imdb.common.util.Utility.getElement(Utility.java:86)
+	at imdb.common.util.Utility.click(Utility.java:131)
+	at imdb.modules.home.HomePage.clickOnSignIn(HomePage.java:38)
+	at imdb.moduletestcase.createaccountsignin.IMDBTestScripts.TC_06_createAccountSuccessfully(IMDBTestScripts.java:155)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_07_signInWithExistingUser">
+                  </a> <!-- TC_07_signInWithExistingUser -->
+                  <span class="method-name">TC_07_signInWithExistingUser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;imdb-signin-link&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;INHYLNAVATHAK&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\navathak\AppData\Local\Temp\scoped_dir8292_14496}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d5e8610a9235c3ae1945cdc027ada03
+*** Element info: {Using=id, value=imdb-signin-link}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at imdb.common.util.Utility.getElement(Utility.java:86)
+	at imdb.common.util.Utility.click(Utility.java:131)
+	at imdb.modules.home.HomePage.clickOnSignIn(HomePage.java:38)
+	at imdb.moduletestcase.createaccountsignin.IMDBTestScripts.TC_07_signInWithExistingUser(IMDBTestScripts.java:176)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08_verifyAccount">
+                  </a> <!-- TC_08_verifyAccount -->
+                  <span class="method-name">TC_08_verifyAccount</span>
+                  <div class="stack-trace">javax.mail.AuthenticationFailedException: [AUTHENTICATIONFAILED] Invalid credentials (Failure)
+	at com.sun.mail.imap.IMAPStore.protocolConnect(IMAPStore.java:732)
+	at javax.mail.Service.connect(Service.java:366)
+	at javax.mail.Service.connect(Service.java:246)
+	at imdb.modules.createIMDBAccount.MailHelper.verifyEmailJavaxMail(MailHelper.java:22)
+	at imdb.moduletestcase.createaccountsignin.IMDBTestScripts.TC_08_verifyAccount(IMDBTestScripts.java:196)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-failed -->
           <div class="suite-Login-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations</span>
+              <span class="class-name">imdb.moduletestcase.createaccountsignin.IMDBTestScripts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -171,23 +326,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_04_VerifyExistingEmailAccount">
-                  </a> <!-- TC_04_VerifyExistingEmailAccount -->
-                  <span class="method-name">TC_04_VerifyExistingEmailAccount</span>
+                  <a name="TC_04_VerifyInvalidEmail">
+                  </a> <!-- TC_04_VerifyInvalidEmail -->
+                  <span class="method-name">TC_04_VerifyInvalidEmail</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_05_VerifyInvalidEmail">
-                  </a> <!-- TC_05_VerifyInvalidEmail -->
-                  <span class="method-name">TC_05_VerifyInvalidEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_06_signInWithExistingUser">
-                  </a> <!-- TC_06_signInWithExistingUser -->
-                  <span class="method-name">TC_06_signInWithExistingUser</span>
+                  <a name="TC_09_signOut">
+                  </a> <!-- TC_09_signOut -->
+                  <span class="method-name">TC_09_signOut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,7 +343,7 @@
         </div> <!-- panel Login -->
         <div panel-name="test-xml-Login" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\navathak\git\imdb21062019\TestSuites\LoginSuite.xml</span>
+            <span class="header-content">C:\Users\navathak\git\imdb21062019\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -204,7 +352,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Login&quot;&gt;
   &lt;test name=&quot; Page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations&quot;/&gt;
+      &lt;class name=&quot;imdb.moduletestcase.createaccountsignin.IMDBTestScripts&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!--  Page Test --&gt;
 &lt;/suite&gt; &lt;!-- Login --&gt;
@@ -244,31 +392,43 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_04_VerifyExistingEmailAccount')
-data.setCell(0, 2, 'imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations')
-data.setCell(0, 3, 15184);
+data.setCell(0, 1, 'TC_05_VerifyExistingEmailAccount')
+data.setCell(0, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(0, 3, 17441);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TC_03_verifyWithMisMatchPassword')
-data.setCell(1, 2, 'imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations')
-data.setCell(1, 3, 15017);
+data.setCell(1, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(1, 3, 15571);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC_05_VerifyInvalidEmail')
-data.setCell(2, 2, 'imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations')
-data.setCell(2, 3, 14019);
+data.setCell(2, 1, 'TC_04_VerifyInvalidEmail')
+data.setCell(2, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(2, 3, 14623);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC_06_signInWithExistingUser')
-data.setCell(3, 2, 'imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations')
-data.setCell(3, 3, 13146);
+data.setCell(3, 1, 'TC_02_clickOnSignInWithOutEnteringanyValues')
+data.setCell(3, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(3, 3, 7835);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC_02_clickOnSignInWithOutEnteringanyValues')
-data.setCell(4, 2, 'imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations')
-data.setCell(4, 3, 7591);
+data.setCell(4, 1, 'TC_07_signInWithExistingUser')
+data.setCell(4, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(4, 3, 4605);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC_01_verifyHomePage')
-data.setCell(5, 2, 'imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations')
-data.setCell(5, 3, 31);
+data.setCell(5, 1, 'TC_06_createAccountSuccessfully')
+data.setCell(5, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(5, 3, 4576);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_09_signOut')
+data.setCell(6, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(6, 3, 2167);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_08_verifyAccount')
+data.setCell(7, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(7, 3, 1723);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_01_verifyHomePage')
+data.setCell(8, 2, 'imdb.moduletestcase.createaccountsignin.IMDBTestScripts')
+data.setCell(8, 3, 24);
 window.suiteTableData['Login']= { tableData: data, tableDiv: 'times-div-Login'}
 return data;
 }
@@ -299,38 +459,58 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">imdb.moduletestcase.createaccountsignin.IMDBTestScripts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">LaunchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TC_01_verifyHomePage</span>
-                <span class="method-start">4336 ms</span>
+                <span class="method-start">4631 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_02_clickOnSignInWithOutEnteringanyValues</span>
-                <span class="method-start">4373 ms</span>
+                <span class="method-start">4658 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_03_verifyWithMisMatchPassword</span>
-                <span class="method-start">11966 ms</span>
+                <span class="method-start">12495 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_04_VerifyExistingEmailAccount</span>
-                <span class="method-start">26984 ms</span>
+                <span class="method-name">TC_04_VerifyInvalidEmail</span>
+                <span class="method-start">28070 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_05_VerifyInvalidEmail</span>
-                <span class="method-start">42169 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_05_VerifyExistingEmailAccount</span>
+                <span class="method-start">42695 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_06_signInWithExistingUser</span>
-                <span class="method-start">56190 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_06_createAccountSuccessfully</span>
+                <span class="method-start">60147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_07_signInWithExistingUser</span>
+                <span class="method-start">64727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_08_verifyAccount</span>
+                <span class="method-start">69336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_09_signOut</span>
+                <span class="method-start">71063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearBrowser</span>
-                <span class="method-start">69337 ms</span>
+                <span class="method-start">73232 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

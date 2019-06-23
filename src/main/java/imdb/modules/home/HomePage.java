@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 import imdb.common.util.ReadConfig;
 import imdb.common.util.Utility;
-import imdb.modules.createaccountsignIn.CreateAccountPage;
+import imdb.modules.createIMDBAccount.CreateAccountPage;
 
 public class HomePage {
 	
@@ -48,10 +48,7 @@ public class HomePage {
 	public Utility getUtil() {
 		return util;
 	}
-/*
-	public LoginPage getLoginPage() {
-		return loginPage;
-	}*/
+
 	
 	
 

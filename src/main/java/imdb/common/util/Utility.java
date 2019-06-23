@@ -1,11 +1,13 @@
 package imdb.common.util;
 
 import java.io.File;
+import java.security.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -194,31 +196,31 @@ public void mouseHover(String locator,String valueToMouseHover) {
 			
 		logger.info("Object Identifier " + str[0]+"\t Object Identifier Value "+str[1]);
 				
-		WebElement element = getElement(str[0], str[1]);
-		Actions action = new Actions(webDriver);
-		 
-        action.moveToElement(element).perform();
-        waitForPageToLoad(10000);
+		//WebElement element = getElement(str[0], str[1]);
 		String[] str1 = valueToMouseHover.split(":");
-			
+		
 		logger.info("Object Identifier " + str1[0]+"\t Object Identifier Value "+str1[1]);
-		//customReport.reporter("Clicking on ", ""+str[1]);
-		
-		WebElement subElement = getElement(str[0], str[1]);
-		logger.info("Sub Element::::" +subElement);
-		
- 
-		waitForPageToLoad(10000);
-        action.moveToElement(subElement);
-        waitForPageToLoad(10000);
-        action.click();
- 
-        action.perform();
-		waitForPageToLoad(10000);
+				
+		//WebElement element = getElement(str[0], str[1]);
+		Actions action = new Actions(webDriver);
+		WebElement mainMenu = getElement(str[0], str[1]);
+		WebElement subMenu = getElement(str1[0], str1[1]);
+		action.moveToElement(mainMenu).moveToElement(subMenu).click().build().perform();
 		logger.info("The Given Element is selected");
 	}
 	
-	
+	public void randomNumberGenerator() {
+		/*Date date= new Date();
+		 
+		 long time = date.getTime();
+		     System.out.println("Time in Milliseconds: " + time);
+		 
+		
+		 System.out.println("Current Time Stamp: " + time);*/
+		 RandomStringUtils.randomAlphanumeric(10);
+		 //System.out.println("Current Time Stamp: " + generatedString);
+		    
+	}
 	
 	
 	

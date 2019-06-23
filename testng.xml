@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Login" parallel="tests" thread-count="3" >	
+<suite name="Login" >	
 	
-	<!-- <test name="GroepoverzichtTest Page Test" >
+	<test name=" Page Test" >
 		<classes>
-			<class name="eduarte.modulestestcase.groep.GroepoverzichtTest"/>
-		</classes>
-	</test>  -->
-	<test name="Login Page Test" >
-		<classes>
-			 <class name="eduarte.moduletestcase.login.LoginPageTest_TestNG"/>
+			
+			 <class name="imdb.moduletestcase.createaccountsignin.IMDBTestScripts"/>
 		</classes>
 	</test>
-	<test name="Home Page Test" >
-		<classes>
-			<class name="eduarte.modulestestcase.home.HomePageTest"/>
-		</classes>
-	</test>
-	<test name="Deelnemer Page Test" >
-		<classes>
-			<class name="eduarte.modulestestcase.deelnemer.DeelnemerTest"/>
-		</classes>
-	</test>
-	 
 	
 </suite>

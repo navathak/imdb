@@ -7,23 +7,24 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import imdb.common.util.DriverManager;
-import imdb.modules.createaccountsignIn.CreateAccountPage;
+import imdb.modules.createIMDBAccount.CreateAccountPage;
+import imdb.modules.createIMDBAccount.MailHelper;
 import imdb.modules.home.HomePage;
 
-public class CreateAccountPageTest {
+public class CreateNewAccountPageTrailAndRun {
 
-	private static Logger logger = Logger.getLogger(CreateAccountPageValidations.class);
+	private static Logger logger = Logger.getLogger(IMDBTestScripts.class);
 
 	private CreateAccountPage createAccountPage;
 
 	private DriverManager dm;
 	private String methodName;
 	HomePage homePage = new HomePage();
-
+	private MailHelper mailHelper = new MailHelper();
 	/**
 	 * No arg constructor
 	 */
-	public CreateAccountPageTest() {
+	public CreateNewAccountPageTrailAndRun() {
 		createAccountPage = new CreateAccountPage();
 		dm = createAccountPage.getUtil().getDm();
 	}
@@ -36,10 +37,10 @@ public class CreateAccountPageTest {
 
 	/*
 	 * Test Case Summary: This Test Case Verifies the launching of correct IMDB Page
-	 * Expected Result: The title of the page must be matched. 
-	 * Author: Navatha Kannadi
+	 * Expected Result: The title of the page must be matched. Author: Navatha
+	 * Kannadi
 	 */
-	@Test(priority=1)
+	@Test(priority = 1)
 	public void TC_01_verifyHomePage() {
 		methodName = new Object() {
 		}.getClass().getEnclosingMethod().getName();
@@ -49,14 +50,12 @@ public class CreateAccountPageTest {
 		Assert.assertEquals(actTitle, expTitle);
 	}
 
-
-
 	/*
 	 * Test Case Summary: This Test Case navigates to signin and then Create Account
 	 * Page Expected Result: The automated browser should be on Create new Account
 	 * Page Author: Navatha Kannadi
 	 */
-	@Test(priority=2)
+	@Test(priority = 2)
 	public void TC_02_clickOnSignIn() {
 		methodName = new Object() {
 		}.getClass().getEnclosingMethod().getName();
@@ -66,11 +65,11 @@ public class CreateAccountPageTest {
 	}
 	/*
 	 * Test Case Summary: This Test Case creates new account for IMDB Expected
-	 * Result: A new account should be created and the user should be signin 
-	 * Author: Navatha Kannadi
+	 * Result: A new account should be created and the user should be signin Author:
+	 * Navatha Kannadi
 	 */
 
-	@Test(priority=3)
+	@Test(priority = 3)
 	public void TC_03_createAccount() {
 		methodName = new Object() {
 		}.getClass().getEnclosingMethod().getName();
@@ -83,36 +82,21 @@ public class CreateAccountPageTest {
 		createAccountPage.enterPassword();
 		createAccountPage.reenterPassword();
 		createAccountPage.clickOnCreateAccount();
-		/*String expUserName=createAccountPage.getExpUserName();
-		String newUserName=	createAccountPage.getNewUserName();
-		if(expUserName.equalsIgnoreCase(newUserName)) {
-			logger.info("The new user is signedin Successfully");
-		}
-*/
+
 	}
+	
 	/*
-	 * Test Case Summary: This Test Case creates new account for IMDB Expected
-	 * Result: A new account should be created and the user should be signin 
+	 * Test Case Summary: This Test Case verifies and clicks on verification email
+	 * Result: The account is confirmed by clicking on verification email. 
 	 * Author: Navatha Kannadi
 	 */
-
-	/*@Test()
-	public void TC_04_signOut() {
+	public void TC_04_confirmEmail() {
 		methodName = new Object() {
 		}.getClass().getEnclosingMethod().getName();
-		createAccountPage.mouseHoverToUserName();
-		//createAccountPage.clickOnLogout();
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		logger.info("Executing Test Case::" + methodName);
+	}
+	
 
-	}*/
-	
-	
-	
 	@AfterClass
 	public void tearBrowser() {
 		methodName = new Object() {

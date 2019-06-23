@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations">
+      <class name="imdb.moduletestcase.createaccountsignin.CreateAccountPageTest">
         <methods>
-          <include name="TC_06_signInWithExistingUser"/>
+          <include name="TC_04_signOut"/>
           <include name="LaunchBrowser"/>
+          <include name="TC_03_createAccount"/>
           <include name="tearBrowser"/>
         </methods>
-      </class> <!-- imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations -->
+      </class> <!-- imdb.moduletestcase.createaccountsignin.CreateAccountPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

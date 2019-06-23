@@ -3,18 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Login]">
   <test name=" Page Test(failed)">
     <classes>
-      <class name="imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations">
+      <class name="imdb.moduletestcase.createaccountsignin.IMDBTestScripts">
         <methods>
-          <include name="TC_01_verifyHomePage"/>
-          <include name="TC_06_signInWithExistingUser"/>
-          <include name="TC_03_verifyWithMisMatchPassword"/>
-          <include name="TC_04_VerifyExistingEmailAccount"/>
+          <include name="TC_08_verifyAccount"/>
+          <include name="TC_06_createAccountSuccessfully"/>
+          <include name="TC_05_VerifyExistingEmailAccount"/>
           <include name="LaunchBrowser"/>
-          <include name="TC_02_clickOnSignInWithOutEnteringanyValues"/>
-          <include name="TC_05_VerifyInvalidEmail"/>
+          <include name="TC_07_signInWithExistingUser"/>
           <include name="tearBrowser"/>
         </methods>
-      </class> <!-- imdb.moduletestcase.createaccountsignin.CreateAccountPageValidations -->
+      </class> <!-- imdb.moduletestcase.createaccountsignin.IMDBTestScripts -->
     </classes>
   </test> <!--  Page Test(failed) -->
 </suite> <!-- Failed suite [Login] -->
